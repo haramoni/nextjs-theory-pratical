@@ -1,5 +1,5 @@
-export default function About() {
-  throw new Error();
+export default async function About() {
+  await new Promise((promise) => setTimeout(promise, 3000));
 
   return (
     <div>
