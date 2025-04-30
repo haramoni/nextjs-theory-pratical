@@ -3,8 +3,7 @@ export default function UserId({ params }: { params: { id: string } }) {
 
   return (
     <div>
-      <h1>USER DETAILS PAGE</h1>
-      <p>User Profile: {id}</p>
+      <h1 className="text-3xl">User profile: {id}</h1>
     </div>
   );
 }
